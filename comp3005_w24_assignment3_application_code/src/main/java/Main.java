@@ -13,14 +13,14 @@ public class Main {
             if (connection != null) {
                 System.out.println("You have connected to database successfully");
                 System.out.println();
-//                System.out.println("Output after calling getAllStudents() function:");
-//                getAllStudents();
-//                addStudent("Rae","Shi","raeshi@cmail.carleton.com", Date.valueOf("2024-03-18"));
-//                System.out.println("Students Records Output after calling addStudent() function:");
-//                getAllStudents();
-//                updateStudentEmail(1,"raeshi@example.com");
-//                System.out.println("Students Records Output after calling updateStudentEmail() function:");
-//                getAllStudents();
+                System.out.println("Output after calling getAllStudents() function:");
+                getAllStudents();
+                addStudent("Rae","Shi","raeshi@cmail.carleton.com", Date.valueOf("2024-03-18"));
+                System.out.println("Students Records Output after calling addStudent() function:");
+                getAllStudents();
+                updateStudentEmail(1,"raeshi@example.com");
+                System.out.println("Students Records Output after calling updateStudentEmail() function:");
+                getAllStudents();
                 deleteStudent(2);
                 System.out.println("Students Records Output after calling deleteStudent() function:");
                 getAllStudents();
